@@ -1,0 +1,53 @@
+Kordamisküsimused
+
+Sissejuhatus küberturbesse, Interneti toimimise põhimõtted
+
+Mis on ründepind?
+organisatsiooni füüsilisi ja digitaalseid varasid, mida võidakse küberrünnakute hõlbustamiseks ohustada
+Kuidas kaardistada arvutivõrgus ründepinda?
+Võrgus olevad seadmed, mis on ründajale kättesaadavad, on ohustatud küberründeks.
+
+Põhimõisted ja kontseptsioonid. Turvaarhitektuur.
+
+Mis on need kolm põhilist turbe aspekti mille tagamisega infoturve tegeleb? Kirjelda neid.
+
+Riske vähendavatel meetmed ja nende omadused?
+
+Mis on (infoturbe)nõrkus?
+
+Mis on (infoturbe)oht?
+
+Mis on (infoturbe)risk? Milliseid hinnangulisi parameetreid kasutatakse (infoturbe)riski kvantifitseerimisel?
+
+Mitu meetmete liiki on, mida kasutatakse riskide käsitlemisel?
+
+Mis omadustega meetmed võivad olla? (5 omadust) 
+
+See mudel tegeleb tervikluse tagamisega ning tal on viis meetodit, üks on muutmisprotsessid. Mis nimelise mudeliga on tegu?
+
+Kuidas Saltzer ja Schroeder defineerivad turvalisust?
+
+
+Telekommunikatsioon ja arvutivõrkude turvalisus
+
+OSI mudel - Nimeta kaks transpordikihi protokolli ning kummagi protokolli kohta üks ründemeetod.
+
+OSI mudel - Nimeta vähemalt üks võrgukihi protokoll ja üks toodud protokolli ründemeetod.
+
+
+Krüptograafia küberturbe aspektist
+
+Mil moel toimib steganograafia?
+
+Nimeta vähemalt üks šifreerimissüsteem.
+
+Sümmeetriline vs asümmeetriline krüptograafia.
+
+Räsimine - mis eesmärk? Mis omadus, mis peamine nõrkus? Kas on leitud haavatavaid räsimise algoritme?
+
+Mis on käivitusvektori (IV) üks huvitavaid omadusi mida arvestada implementeerimisel?
+
+Nimeta kaks krüptograafia praktilist rakendust tänapäeva IT maailmas.
+
+Nimeta kaks krüptograafia implementeerimise viga.
+

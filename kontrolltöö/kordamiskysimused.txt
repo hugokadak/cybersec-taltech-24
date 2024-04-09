@@ -1,27 +1,36 @@
 Kordamisküsimused
 
 Sissejuhatus küberturbesse, Interneti toimimise põhimõtted
-
 Mis on ründepind?
-organisatsiooni füüsilisi ja digitaalseid varasid, mida võidakse küberrünnakute hõlbustamiseks ohustada
+organisatsiooni füüsilised ja digitaalsed varad, mida võidakse küberrünnakute hõlbustamiseks ohustada
 Kuidas kaardistada arvutivõrgus ründepinda?
 Võrgus olevad seadmed, mis on ründajale kättesaadavad, on ohustatud küberründeks.
-
 Põhimõisted ja kontseptsioonid. Turvaarhitektuur.
 
 Mis on need kolm põhilist turbe aspekti mille tagamisega infoturve tegeleb? Kirjelda neid.
-
-Riske vähendavatel meetmed ja nende omadused?
+Käideldavus, terviklus ja konfidentsiaalsus
+Käideldavus - süsteemi või andmete kättesaadavus ja ootuspärane toimimine
+Terviklus - andmete kaitstus loata muutmise või hävitamise eest
+Konfidentsiaalsus - andmete või süsteemi kaitstus kolmandate osapoolte loata juurdepääsu eest.
 
 Mis on (infoturbe)nõrkus?
+süsteemide või süsteemidega seotud ressursside turvalisuse puudus, mis muudab süsteemid või süsteemidega seotud ressursid ohule vastuvõtlikuks
 
 Mis on (infoturbe)oht?
+sündmus või asjaolu, mis on võimeline süsteemide või nendega seotud ressursside nõrkust ära kasutama
 
 Mis on (infoturbe)risk? Milliseid hinnangulisi parameetreid kasutatakse (infoturbe)riski kvantifitseerimisel?
+hinnanguline määrang, mis kujuneb ohu poolt nõrkuse ärakasutamise tõenäosuse ja tekkida võiva küberintsidendi tagajärgede kombinatsioonist
+Milliseid.. 
+Funktsionaalne sobitavus, soorituse tõhusus, töökindlus, ühilduvus, kasutatavus, turvalisus, hooldatavus, porditavus.
+Allpool on ka pilt sellest lehest kus leidsin
+
 
 Mitu meetmete liiki on, mida kasutatakse riskide käsitlemisel?
+Riskide käsitlemisel on 5 liiki meetmeid, mida kasutatakse
 
-Mis omadustega meetmed võivad olla? (5 omadust) 
+
+Mis omadustega meetmed võivad olla? (5 omadust)
 
 See mudel tegeleb tervikluse tagamisega ning tal on viis meetodit, üks on muutmisprotsessid. Mis nimelise mudeliga on tegu?
 
@@ -51,3 +60,12 @@ Nimeta kaks krüptograafia praktilist rakendust tänapäeva IT maailmas.
 
 Nimeta kaks krüptograafia implementeerimise viga.
 
+
+
+
+
+
+
+
+allikad 
+Infoturbe riski parameetrid: https://tepandi.ee/tks-loeng.pdf page 15

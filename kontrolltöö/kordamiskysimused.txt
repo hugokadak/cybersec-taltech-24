@@ -33,23 +33,42 @@ Riskide käsitlemisel on 5 liiki meetmeid, mida kasutatakse
 Mis omadustega meetmed võivad olla? (5 omadust)
 
 See mudel tegeleb tervikluse tagamisega ning tal on viis meetodit, üks on muutmisprotsessid. Mis nimelise mudeliga on tegu?
+Standard mudel
+
+
+
+
 
 Kuidas Saltzer ja Schroeder defineerivad turvalisust?
-
+With respect to information processing systems, used to denote mechanisms and techniques that control who may use or modify the computer or the information stored in it.
+Erinevate mehhanismide ja tehnikate tähistamine teabetöötlussüsteemides, mis kontrollivad kes võib kasutada või muuta arvutit või sellesse salvestatud infot.
 
 Telekommunikatsioon ja arvutivõrkude turvalisus
 
 OSI mudel - Nimeta kaks transpordikihi protokolli ning kummagi protokolli kohta üks ründemeetod.
+Transpordikihi protokollid on TCP ja UDP. 
+TCP - SYN üleujutamine, TCP reset attack, TCP kaaperdamine
+UDP - UDP üleujutamine, DDoS rünne, HTTP üleujutus, ping of death
 
 OSI mudel - Nimeta vähemalt üks võrgukihi protokoll ja üks toodud protokolli ründemeetod.
+IP ja ICMP protokoll
+IP - IP võltsimine, andmepüük (phishing), botnet, pahavara
+ICMP - smurfirünnak
+
+
 
 
 Krüptograafia küberturbe aspektist
 
 Mil moel toimib steganograafia?
-
+võtete jada, et peita infot teise objekti sisse, nt faili, mõningal määral sarnaneb see krüptograafiale.
+,,Peites juhendeid kohtadesse, kus peaks olema andmed.” - edgar savisaar
 Nimeta vähemalt üks šifreerimissüsteem.
-
+Asümmeetriline krüpteerimine - kasutab andmete krüptimiseks ja dekrüpteerimiseks kahte eraldi võtit – avalikku võtit ja privaatvõtit (Public-Key Cryptography)
+Caesari šifrer(?) - kasutab andmete krüptimiseks algoritmi, mis muudab andmed kasutades kahte tähestikku, milles üks on kindla koha võrra edasi tõstetud
+Kuznyechiku šifrer (rohutirtsu cipher) - kasutab plokk šifrit, kus iga andme plokk on kindla pikkusega bitid, mida kutsutakse plokkideks.
+Enigma(mõistatuse) machine - me kõik teame mis sen; üks kõige turvalisem krüpteerimise viis, mis muutis tähestiku 26 karakteri asukohta kindla väärtuse võrra, ja siis muutis seda teist korda uuesti. Dekrüpteerimise võtit oli vaja teada, et pöörata dekrüpteerimise vahendid loetavaks tekstiks.
+Asendamise šifrer - kasutab kahte tähestikku, kus teine tähestik (krüpteerija) on ühes kindlas, arendaja poolt määratud viisil ümber tõstetud.
 Sümmeetriline vs asümmeetriline krüptograafia.
 
 Räsimine - mis eesmärk? Mis omadus, mis peamine nõrkus? Kas on leitud haavatavaid räsimise algoritme?
@@ -69,3 +88,6 @@ Nimeta kaks krüptograafia implementeerimise viga.
 
 allikad 
 Infoturbe riski parameetrid: https://tepandi.ee/tks-loeng.pdf page 15
+Parameetrid https://harno.ee/sites/default/files/documents/2024-03/Harno%20k%C3%BCber%20ja%20riskid%20osa%20%28I.%20Toom%20RIA%29.pdf
+Saltzer turvalisus https://www.princeton.edu/~rblee/ELE572Papers/Fall04Readings/ProtectionInfo_Saltzer.pdf
+
